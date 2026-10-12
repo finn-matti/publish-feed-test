@@ -20,7 +20,7 @@
     <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault/Feed+test+one"/>
     <published>2026-10-12T12:57:11.227Z</published>
     <updated>2026-10-12T13:02:02.489Z</updated>
-    <summary type="text">Feed test one</summary>
+    <summary type="text">A note with an explicit description property.</summary>
   </entry>
   <entry>
     <id>https://publish.obsidian.md/testvault/Testing+-+publish+current+file</id>
