@@ -2,10 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://finn-matti.github.io/publish-feed-test/feed.atom</id>
   <title>Recent changes</title>
-  <updated>2026-10-12T12:57:11.227Z</updated>
+  <updated>2026-10-12T13:00:53.240Z</updated>
   <author><name>matti</name></author>
   <link rel="self" type="application/atom+xml" href="https://finn-matti.github.io/publish-feed-test/feed.atom"/>
   <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault"/>
+  <entry>
+    <id>https://publish.obsidian.md/testvault/Testing+-+publish+current+file</id>
+    <title>Testing - publish current file</title>
+    <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault/Testing+-+publish+current+file"/>
+    <published>2026-10-12T13:00:53.240Z</published>
+    <updated>2026-10-12T13:00:53.240Z</updated>
+    <summary type="text">jep</summary>
+  </entry>
   <entry>
     <id>https://publish.obsidian.md/testvault/Feed+test+one</id>
     <title>Feed test one</title>
