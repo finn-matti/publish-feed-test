@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://finn-matti.github.io/publish-feed-test/feed.atom</id>
   <title>Recent changes</title>
-  <updated>2026-10-12T14:56:00.727Z</updated>
+  <updated>2026-10-12T15:17:05.642Z</updated>
   <author><name>matti</name></author>
   <link rel="self" type="application/atom+xml" href="https://finn-matti.github.io/publish-feed-test/feed.atom"/>
   <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault"/>
+  <entry>
+    <id>https://publish.obsidian.md/testvault/Feed+test+one</id>
+    <title>Feed test one</title>
+    <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault/Feed+test+one"/>
+    <published>2026-10-12T12:57:11.227Z</published>
+    <updated>2026-10-12T15:17:05.642Z</updated>
+    <summary type="text">A note with an explicit description property.</summary>
+    <content type="html">&lt;h1&gt;Feed test one&lt;/h1&gt;
+&lt;p&gt;Body text that should not be used as the summary.&lt;/p&gt;
+&lt;p&gt;Cool stuff.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>https://publish.obsidian.md/testvault/Embedded+note</id>
     <title>Embedded note</title>
@@ -58,17 +69,6 @@ Unpublished link: Secret draft. Aliased unpublished: hidden alias. Missing note:
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;</content>
-  </entry>
-  <entry>
-    <id>https://publish.obsidian.md/testvault/Feed+test+one</id>
-    <title>Feed test one</title>
-    <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault/Feed+test+one"/>
-    <published>2026-10-12T12:57:11.227Z</published>
-    <updated>2026-10-12T14:56:00.185Z</updated>
-    <summary type="text">A note with an explicit description property. HOW EMBARASSING</summary>
-    <content type="html">&lt;h1&gt;Feed test one&lt;/h1&gt;
-&lt;p&gt;Body text that should not be used as the summary.&lt;/p&gt;
-&lt;p&gt;Cool stuff.&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>https://publish.obsidian.md/testvault/Feed+test+two</id>
