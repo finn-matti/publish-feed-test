@@ -2,16 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://finn-matti.github.io/publish-feed-test/feed.atom</id>
   <title>Recent changes</title>
-  <updated>2026-10-12T12:05:13.187Z</updated>
-  <author><name>Recent changes</name></author>
+  <updated>2026-10-12T12:57:11.227Z</updated>
+  <author><name>matti</name></author>
   <link rel="self" type="application/atom+xml" href="https://finn-matti.github.io/publish-feed-test/feed.atom"/>
-  <link rel="alternate" type="text/html" href="https://publish.obsidian.md/fake-slug"/>
+  <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault"/>
   <entry>
-    <id>https://publish.obsidian.md/fake-slug/Feed+test+two</id>
+    <id>https://publish.obsidian.md/testvault/Feed+test+one</id>
+    <title>Feed test one</title>
+    <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault/Feed+test+one"/>
+    <published>2026-10-12T12:57:11.227Z</published>
+    <updated>2026-10-12T12:57:11.227Z</updated>
+    <summary type="text">A note with an explicit description property.</summary>
+  </entry>
+  <entry>
+    <id>https://publish.obsidian.md/testvault/Feed+test+two</id>
     <title>Feed test two</title>
-    <link rel="alternate" type="text/html" href="https://publish.obsidian.md/fake-slug/Feed+test+two"/>
-    <published>2026-10-12T11:52:54.457Z</published>
-    <updated>2026-10-12T12:05:13.187Z</updated>
+    <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault/Feed+test+two"/>
+    <published>2026-10-12T12:57:10.920Z</published>
+    <updated>2026-10-12T12:57:10.920Z</updated>
     <summary type="text">Edited first paragraph, so the summary and the updated time should change.</summary>
+  </entry>
+  <entry>
+    <id>https://publish.obsidian.md/testvault/Untitled</id>
+    <title>Untitled</title>
+    <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault/Untitled"/>
+    <published>2026-10-12T12:57:10.694Z</published>
+    <updated>2026-10-12T12:57:10.694Z</updated>
+  </entry>
+  <entry>
+    <id>https://publish.obsidian.md/testvault/Welcome</id>
+    <title>Welcome</title>
+    <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault/Welcome"/>
+    <published>2026-10-12T12:57:10.414Z</published>
+    <updated>2026-10-12T12:57:10.414Z</updated>
+    <summary type="text">This is your new vault.</summary>
+  </entry>
+  <entry>
+    <id>https://publish.obsidian.md/testvault/Sub+folder/Nested+note</id>
+    <title>Nested note</title>
+    <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault/Sub+folder/Nested+note"/>
+    <published>2026-10-12T12:57:10.179Z</published>
+    <updated>2026-10-12T12:57:10.179Z</updated>
+    <summary type="text">A note in a subfolder, to check that folders end up in the page URL.</summary>
+  </entry>
+  <entry>
+    <id>https://publish.obsidian.md/testvault/%C3%9Cn%C3%AF+test+%26+more</id>
+    <title>Ünï test &amp; more</title>
+    <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault/%C3%9Cn%C3%AF+test+%26+more"/>
+    <published>2026-10-12T12:57:09.911Z</published>
+    <updated>2026-10-12T12:57:09.911Z</updated>
+    <summary type="text">A note with spaces, accents and an ampersand in its file name, to check page URLs.</summary>
+  </entry>
+  <entry>
+    <id>https://publish.obsidian.md/testvault/Plus%2Bsign</id>
+    <title>Plus+sign</title>
+    <link rel="alternate" type="text/html" href="https://publish.obsidian.md/testvault/Plus%2Bsign"/>
+    <published>2026-10-12T12:57:09.669Z</published>
+    <updated>2026-10-12T12:57:09.669Z</updated>
+    <summary type="text">A note with a literal plus in its file name. Publish encodes spaces as +, so this must stay distinguishable.</summary>
   </entry>
 </feed>
